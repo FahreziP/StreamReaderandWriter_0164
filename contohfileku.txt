@@ -1,0 +1,3 @@
+nama: Fahrezi 
+nim: 164
+alamat: jalan suka karya

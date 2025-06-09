@@ -29,7 +29,7 @@ int main(){
     //membuat objek input dalam file stream
     ifstream infile;
     // membuka file yang dituliskan
-    infile.open("Contohfilelagi.txt");
+    infile.open("Contohfileku.txt");
 
     cout << endl << ">= Membuka dan membaca file " << endl;
     // jika file ada maka
@@ -40,6 +40,9 @@ int main(){
             cout << baris << '\n';
         }
         // tutup file tersebut setelah selesai
-        iofile.close()
+        infile.close();
     }
+    // Jika tidak ditemukan file maka akan menampilkan ini
+    else cout << "Unable to open file";
+    return 0;
 }
